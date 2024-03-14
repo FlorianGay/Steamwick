@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "La Tour de l'Horloger",
+    "price": "5 pièces d'or",
+    "open_time": "9h - 18h",
+    "time": "1 heure",
+    "transport": "Station Horloge Mécanique",
+    "description": "La Tour de l'Horloger est un symbole de la précision et de l'ingéniosité steampunk. Vous pourrez y découvrir une collection impressionnante de montres, horloges et mécanismes d'horlogerie.",
+    "history": "Construite au XIXe siècle par le célèbre horloger Henri Dupont, la Tour de l'Horloger était autrefois le repère où il perfectionnait ses inventions révolutionnaires. Elle est désormais ouverte au public pour admirer son travail.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Le Musée des Machines à Vapeur",
+    "price": "8 pièces d'or",
+    "open_time": "10h - 17h",
+    "time": "2 heures",
+    "transport": "Station Vapeur Antique",
+    "description": "Le Musée des Machines à Vapeur abrite une collection unique de locomotives, d'engins industriels et de machines à vapeur restaurées. Plongez dans l'ère industrielle de Steamwick.",
+    "history": "Ce musée a été fondé par l'inventeur Edward Steamwick, pionnier dans le domaine des machines à vapeur. Il a contribué au développement de la ville en fournissant des moteurs et des machines révolutionnaires.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_2.webp"
+  },
+  {
+    "id": 3,
+    "title": "La Grande Bibliothèque Mécanique",
+    "price": "Gratuit",
+    "open_time": "9h - 20h",
+    "time": "1.5 heures",
+    "transport": "Station Livres Enchantés",
+    "description": "La Grande Bibliothèque Mécanique est un trésor de connaissances steampunk. Ses rayons regorgent de livres anciens, manuscrits et inventions intellectuelles.",
+    "history": "Créée par la famille intellectuelle des Montgolfier, cette bibliothèque était à l'origine un lieu de rencontre pour les esprits les plus brillants de Steamwick. Elle reste un lieu de savoir et de recherche pour les passionnés.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_3.webp"
+  },
+  {
+    "id": 4,
+    "title": "Le Théâtre Mécanique",
+    "price": "10 pièces d'or",
+    "open_time": "19h - 23h",
+    "time": "3 heures",
+    "transport": "Station Art Dramatique",
+    "description": "Le Théâtre Mécanique est un lieu de spectacles fantastiques, où les acteurs et les machines se mêlent pour des représentations étonnantes.",
+    "history": "Autrefois géré par la famille Théâtre, ce lieu a vu naître les plus grandes pièces de théâtre et les spectacles les plus spectaculaires de la ville. Venez vivre une expérience unique.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_4.webp"
+  },
+  {
+    "id": 5,
+    "title": "La Place de l'Invention",
+    "price": "Gratuit",
+    "open_time": "Toute la journée",
+    "time": "1 heure",
+    "transport": "Station Créations Innovantes",
+    "description": "La Place de l'Invention est un marché où les inventeurs locaux présentent leurs dernières créations. Des gadgets aux machines plus complexes, vous trouverez de tout ici.",
+    "history": "Créée pour encourager l'innovation et la créativité, cette place est devenue le cœur de la communauté des inventeurs de Steamwick. Venez découvrir les dernières avancées technologiques.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_1.webp"
+  },
+  {
+    "id": 6,
+    "title": "Le Quartier des Horlogers",
+    "price": "Gratuit",
+    "open_time": "9h - 18h",
+    "time": "2 heures",
+    "transport": "Station Mécanismes Horlogers",
+    "description": "Le Quartier des Horlogers est un ensemble de ruelles et de boutiques dédiées à l'horlogerie. Découvrez les artisans qui perpétuent la tradition de la montre mécanique.",
+    "history": "Ce quartier était autrefois le centre névralgique de l'industrie horlogère de Steamwick. Aujourd'hui, il abrite encore des artisans passionnés qui façonnent des montres uniques.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_1.webp"
+  },
+  {
+    "id": 7,
+    "title": "Le Palais de la Mécanique",
+    "price": "12 pièces d'or",
+    "open_time": "10h - 16h",
+    "time": "3 heures",
+    "transport": "Station Rouages Mystérieux",
+    "description": "Le Palais de la Mécanique est une merveille d'architecture et d'ingénierie. Ses salles regorgent de machines impressionnantes et de mécanismes fascinants.",
+    "history": "Commandé par le roi mécanicien Louis XIV, ce palais était le symbole de la grandeur et de la puissance de Steamwick. Venez admirer les prouesses de l'ingénierie steampunk.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_1.webp"
+  },
+  {
+    "id": 8,
+    "title": "Les Jardins du Cog",
+    "price": "5 pièces d'or",
+    "open_time": "8h - 18h",
+    "time": "2 heures",
+    "transport": "Station Jardin Enchanté",
+    "description": "Les Jardins du Cog sont un havre de paix au cœur de Steamwick. Découvrez une nature luxuriante et des sculptures mécaniques étonnantes.",
+    "history": "Conçus par l'architecte botaniste Hélios Botanik, ces jardins étaient autrefois un lieu de méditation pour les habitants de Steamwick. Aujourd'hui, ils restent un endroit où se ressourcer.",
+    "image": "https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_1.webp"
+  }
+]

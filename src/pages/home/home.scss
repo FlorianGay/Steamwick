@@ -1,0 +1,48 @@
+.home-description {
+  display: flex;
+  padding: 100px;
+  align-items: center;
+
+  h2 {
+    font-size: 64px;
+    margin: 0;
+    width: 70%;
+  }
+
+  p {
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.heiress {
+  color: #442000;
+  background-color: #FFEFCF;
+}
+
+.history {
+    background-image: url('https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/view_of_city.webp');
+    background-size: cover;
+    color: white;
+    width: auto;
+    height: 500px;
+
+    .description_2-contain {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-size: 24px;
+            width: 80%;
+            margin: 0;
+        }
+    }
+
+    h2 {
+        font-size: 64px;
+        margin: 0;
+        width: 110%;
+    }
+    
+}

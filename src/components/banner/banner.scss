@@ -1,0 +1,24 @@
+
+.banner {
+
+    .banner-contain {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        z-index: 100;
+
+        .banner-title {
+            font-size: 96px;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        .banner-description {
+            font-size: 42px;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}
