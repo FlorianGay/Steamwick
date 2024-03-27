@@ -15,7 +15,7 @@ function Header() {
       <div className="header-bottom">
         <ul className='header-nav-list'>
             <li className='nav-list-elmt'><Link to={'/about'}>A propos</Link></li>
-            <li className='nav-list-elmt'><Link to={'/places'}>A visiter</Link></li>
+            <li className='nav-list-elmt'><Link to={'/place-to-visit'}>A visiter</Link></li>
             <li className='nav-list-elmt'><Link to={'/'}>Expériences</Link></li>
             <li className='nav-list-elmt'><Link to={'/'}>Notre histoire</Link></li>
             <li className='nav-list-elmt'><Link to={'/'}>Carte</Link></li>

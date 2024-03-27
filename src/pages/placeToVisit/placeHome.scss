@@ -1,0 +1,74 @@
+.place-title {
+  background-color: #5c2c00;
+  text-align: center;
+  padding: 15px 0;
+  h1 {
+    color: white;
+    font-size: 60px;
+    margin: 0;
+  }
+}
+
+.place-banner {
+  position: relative;
+
+  .banner-compass {
+    width: 100%;
+    max-width: 570px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0;
+
+    .banner-elmt {
+      position: relative;
+
+      &:hover {
+        cursor: pointer;
+        p {
+          font-size: 60px;
+          transition: all 0.5s ease-in-out;
+        }
+
+        img {
+          filter: brightness(50%);
+          transition: all 0.5s ease-in-out;
+        }
+      }
+
+      img {
+        width: 100%;
+        max-width: 960px;
+        max-height: 462px;
+        object-fit: cover;
+        transition: all 0.5s ease-in-out;
+      }
+
+      p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        font-size: 50px;
+        color: white;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.popular h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
