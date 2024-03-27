@@ -8,6 +8,7 @@ import About from "./pages/about/about";
 import PlaceHome from "./pages/placeToVisit/placeHome";
 import CategoryPlace from "./pages/placeToVisit/categoryPlace";
 import PlaceDetails from "./pages/placeToVisit/placeDetails";
+import ExperienceHome from "./pages/experience/experienceHome";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/place-to-visit" element={<PlaceHome />} />
         <Route path="/place-to-visit/:category" element={<CategoryPlace />} />
         <Route path="/place-to-visit/:category/:id" element={<PlaceDetails />} />
+        <Route path="/experience" element={<ExperienceHome />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

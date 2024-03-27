@@ -1,0 +1,210 @@
+{
+    "art": [
+        {
+            "titre": "Sculpture Mécanique",
+            "description": "Des sculptures métalliques complexes combinant mécanique et esthétique Steampunk.",
+            "adresses": [
+              "1 Rue des Engrenages, Steamwick",
+              "25 Avenue de la Vapeur, Steamwick",
+              "12 Rue des Rouages, Steamwick"
+            ]
+          },
+          {
+            "titre": "Peinture à la Vapeur",
+            "description": "Des œuvres d'art uniques réalisées en utilisant des techniques de peinture à la vapeur, créant des effets uniques et mystérieux.",
+            "adresses": [
+              "8 Place des Vapeurs, Steamwick",
+              "15 Rue des Cogitations, Steamwick",
+              "30 Boulevard de la Brume, Steamwick"
+            ]
+          },
+          {
+            "titre": "Photographie d'Horlogerie",
+            "description": "Des photographies artistiques mettant en valeur la beauté de l'horlogerie Steampunk.",
+            "adresses": [
+              "5 Rue de l'Horloge, Steamwick",
+              "22 Allée des Aiguilles, Steamwick",
+              "10 Impasse du Cadran, Steamwick"
+            ]
+          },
+          {
+            "titre": "Théâtre Mécanique",
+            "description": "Des représentations théâtrales où les décors et costumes sont inspirés par l'univers Steampunk.",
+            "adresses": [
+              "7 Avenue des Automates, Steamwick",
+              "18 Place du Mécanisme, Steamwick",
+              "4 Passage de la Pendule, Steamwick"
+            ]
+          },
+          {
+            "titre": "Musique à Vapeur",
+            "description": "Des concerts et performances musicales mettant en avant des instruments et sonorités Steampunk.",
+            "adresses": [
+              "3 Rue de la Musique, Steamwick",
+              "16 Rue des Sifflets, Steamwick",
+              "9 Allée des Pistons, Steamwick"
+            ]
+          },
+          {
+            "titre": "Danse des Rouages",
+            "description": "Des spectacles de danse contemporaine inspirés par les mouvements mécaniques des engrenages.",
+            "adresses": [
+              "6 Allée des Rouages, Steamwick",
+              "11 Place des Cadrans, Steamwick",
+              "2 Rue des Pignons, Steamwick"
+            ]
+          }
+    ],
+    "festival": [
+        {
+            "titre": "SteamFest",
+            "description": "Le SteamFest est un festival annuel dédié à la culture Steampunk. Venez découvrir des expositions d'art, des concerts rétro-futuristes et des défilés de costumes uniques.",
+            "adresse": "Place de la Machine à Vapeur, 123 Rue des Rouages, 80000 Steamwick"
+          },
+          {
+            "titre": "Clockwork Carnival",
+            "description": "Le Clockwork Carnival est un carnaval Steampunk haut en couleur. Avec ses manèges à vapeur et ses stands de curiosités, vous plongerez dans un univers fantastique.",
+            "adresse": "Avenue des Engrenages, 456 Chemin du Mécanisme, 80100 Steamwick"
+          },
+          {
+            "titre": "Brass & Gears Festival",
+            "description": "Le Brass & Gears Festival célèbre l'alliance entre la musique brass band et l'esthétique Steampunk. Venez vibrer au son des cuivres et des rouages !",
+            "adresse": "Quai de la Vapeur, 789 Boulevard de la Machine, 80200 Steamwick"
+          },
+          {
+            "titre": "SteamPunktoberfest",
+            "description": "Lors du SteamPunktoberfest, la bière coule à flot dans des steins ornés de rouages. Un mélange unique entre festivités bavaroises et ambiance Steampunk.",
+            "adresse": "Rue des Tuyaux à Vapeur, 101 Route des Pistons, 80300 Steamwick"
+          },
+          {
+            "titre": "Gears & Gadgets Expo",
+            "description": "L'Expo Gears & Gadgets met en avant les inventions les plus folles de l'univers Steampunk. Découvrez des machines extraordinaires et des gadgets uniques.",
+            "adresse": "Esplanade des Inventeurs, 1111 Chemin des Machineries, 80400 Steamwick"
+          },
+          {
+            "titre": "Steamwick Masquerade Ball",
+            "description": "Le Steamwick Masquerade Ball est un bal masqué Steampunk où élégance et mystère se rencontrent. Une soirée inoubliable au cœur de la ville mécanique.",
+            "adresse": "Manoir des Horloges, 222 Rue des Rouages, 80500 Steamwick"
+          }
+    ],
+    "food": [
+        {
+            "titre": "Cogwheel Curry",
+            "description": "Un délicieux curry aux épices exotiques, garni de rouages d'acier croustillants.",
+            "adresses": [
+                "Le Bistrot des Engrenages - 12 Rue du Cuivre, Steamwick",
+                "Chez Madame Cogsworth - 34 Rue des Vapeurs, Steamwick",
+                "Le Café des Machinistes - 8 Avenue de la Vapeur, Steamwick"
+            ]
+        },
+        {
+            "titre": "Steam-Powered Stew",
+            "description": "Un ragoût robuste rempli de légumes frais et de morceaux de viande cuits lentement dans un bouillon de vapeur.",
+            "adresses": [
+                "La Taverne des Mécaniciens - 20 Rue des Pistons, Steamwick",
+                "Le Comptoir des Horloges - 15 Place des Rouages, Steamwick",
+                "Le Café de la Vapeur - 5 Boulevard de l'Invention, Steamwick"
+            ]
+        },
+        {
+            "titre": "Brass Gear Burger",
+            "description": "Un hamburger généreux garni de fromage fondu, de bacon croustillant et d'un grand rouage de laiton en guise de garniture.",
+            "adresses": [
+                "Le Pub des Horloges Folles - 18 Avenue des Engrenages, Steamwick",
+                "Le Bistro de la Roue Dentée - 9 Rue de la Vapeur, Steamwick",
+                "Chez Madame Tournicotte - 25 Rue des Rouages, Steamwick"
+            ]
+        },
+        {
+            "titre": "Clockwork Croissant",
+            "description": "Un croissant moelleux fourré de crème pâtissière, saupoudré de sucre en forme de rouages.",
+            "adresses": [
+                "La Boulangerie des Compagnons - 3 Rue de l'Horloge, Steamwick",
+                "Le Café du Mécanicien - 7 Place des Engrenages, Steamwick",
+                "Chez Monsieur Pendule - 14 Boulevard de la Vapeur, Steamwick"
+            ]
+        },
+        {
+            "titre": "Steampunk Sushi Rolls",
+            "description": "Des sushis originaux aux saveurs exotiques, enveloppés dans des feuilles de nori ornées de motifs de vapeur.",
+            "adresses": [
+                "Le Bar à Sushi à Vapeur - 28 Rue des Rouages, Steamwick",
+                "Le Restaurant du Voyageur Temporel - 10 Avenue de la Vapeur, Steamwick",
+                "Chez Madame Sushiton - 6 Place des Pistons, Steamwick"
+            ]
+        },
+        {
+            "titre": "Gearwheel Gateau",
+            "description": "Un gateau moelleux aux saveurs de caramel et de noix, décoré de petits rouages en chocolat.",
+            "adresses": [
+                "La Pâtisserie des Inventeurs - 17 Rue des Engrenages, Steamwick",
+                "Le Salon de Thé des Horloges - 22 Boulevard de la Vapeur, Steamwick",
+                "Chez Monsieur Gâteau - 11 Place des Rouages, Steamwick"
+            ]
+        }
+    ],
+    "parc": [
+        {
+            "titre": "Parc des Machines Volantes",
+            "description": "Explorez un parc où les machines volantes du XIXe siècle prennent vie. Admirez les dirigeables majestueux et les inventions volantes uniques dans un décor steampunk.",
+            "adresse": "12 Rue des Ailes d'Airship, Steamwick"
+          },
+          {
+            "titre": "Jardin des Horloges Mécaniques",
+            "description": "Plongez dans un univers d'horloges mécaniques géantes et de sculptures animées. Ce jardin vous transporte dans une époque où le temps était mesuré en rouages et en engrenages.",
+            "adresse": "25 Avenue du Temps, Steamwick"
+          },
+          {
+            "titre": "Parc de la Flore Fossile",
+            "description": "Découvrez une collection unique de plantes fossilisées provenant des ères anciennes. Ce parc botanique vous invite à un voyage à travers l'histoire de la flore steampunk.",
+            "adresse": "8 Chemin des Fossiles, Steamwick"
+          },
+          {
+            "titre": "Réserve des Machines Aquatiques",
+            "description": "Plongez dans les profondeurs de la réserve des machines aquatiques, où les sous-marins steampunk et les créatures mécaniques marines sont à l'honneur.",
+            "adresse": "6 Rue des Profondeurs, Steamwick"
+          },
+          {
+            "titre": "Parc des Automates Enchantés",
+            "description": "Dans ce parc, les automates anciens prennent vie dans un spectacle magique. Admirez les danseurs mécaniques et les musiciens automatisés dans un décor féérique.",
+            "adresse": "17 Allée des Automates, Steamwick"
+          },
+          {
+            "titre": "Jardin des Machines à Vapeur",
+            "description": "Explorez un jardin où les machines à vapeur majestueuses sont les stars. Découvrez les locomotives anciennes et les machines industrielles dans un cadre pittoresque.",
+            "adresse": "3 Rue de la Vapeur, Steamwick"
+          }
+    ],
+    "market": [
+        {
+            "titre": "Marché des Merveilles",
+            "description": "Découvrez un marché où l'étrange et le merveilleux se côtoient. Des inventions incroyables, des curiosités étonnantes et des artefacts uniques vous attendent.",
+            "adresse": "12 Rue des Inventeurs, Steamwick"
+          },
+          {
+            "titre": "Bazar des Horlogers",
+            "description": "Plongez dans l'univers fascinant des horlogers steampunk. Des montres extraordinaires, des mécanismes mystérieux et des artisans passionnés vous accueillent.",
+            "adresse": "8 Avenue des Rouages, Steamwick"
+          },
+          {
+            "titre": "Foire aux Automates",
+            "description": "Une foire colorée où les automates prennent vie. Des marionnettes mécaniques, des robots surprenants et des spectacles animés vous émerveilleront.",
+            "adresse": "Place du Mécanisme, Steamwick"
+          },
+          {
+            "titre": "Marché de la Vapeur",
+            "description": "Explorez un marché dédié à la vapeur et à ses applications. Des machines impressionnantes, des locomotives fumantes et des innovations énergétiques vous surprendront.",
+            "adresse": "23 Boulevard de la Vapeur, Steamwick"
+          },
+          {
+            "titre": "Place des Artisans",
+            "description": "Rencontrez les artisans steampunk les plus talentueux de la région. Des créations originales, des sculptures mécaniques et des bijoux extraordinaires vous séduiront.",
+            "adresse": "5 Place des Créateurs, Steamwick"
+          },
+          {
+            "titre": "Marché de l'Étrange",
+            "description": "Plongez dans l'étrange et le mystérieux. Des curiosités bizarres, des objets ésotériques et des énigmes insolites vous attendent à chaque étal.",
+            "adresse": "14 Rue de l'Étrangeté, Steamwick"
+          }
+    ]
+}
