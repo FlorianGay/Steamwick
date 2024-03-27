@@ -1,11 +1,22 @@
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 import Banner from '../../components/banner/banner'
-import homeList from '../../data/homeSlider.json'
 import './home.scss'
-import ArrowSlider from '../../components/visitSlider/arrowSlider'
+import ArrowSlider from '../../components/arrowSlider/arrowSlider'
 import arrowSliderList from '../../data/places.json'
 
 function Home() {
+  const homeList = [
+    {
+      image: [
+        'https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_1.webp',
+        'https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_2.webp',
+        'https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_2.webp',
+        'https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/slide_4.webp',
+      ],
+      alt: 'City Photography ',
+    },
+  ]
+
   return (
     <main>
       <Banner
@@ -37,31 +48,30 @@ function Home() {
           habitants.
         </p>
       </section>
-      <section className="home-description history">
+      <section className="home-description heiress-walk">
         <div className="description_2-contain">
           <p>
-            Située aux confins des terres mystérieuses et des montagnes
-            brumeuses, Steamwick se dresse comme un phare d'innovation et de
-            mystère dans le royaume. Fondée il y a des siècles par les
-            visionnaires de l'époque, cette cité prospère est le fruit d'une
-            alliance unique entre la magie antique et les technologies
-            mécaniques. Ses rues pavées de laiton résonnent encore des échos du
-            passé, où les premiers ingénieurs ont forgé les premières
-            locomotives à vapeur et les horloges précises...
+            Le parcours touristique de Steamwick offre une immersion captivante
+            dans l'héritage riche et fascinant de la ville. En suivant ce
+            parcours, vous découvrirez les monuments emblématiques, les lieux
+            historiques et les secrets bien gardés qui ont façonné l'identité de
+            Steamwick. De l'ancienne horlogerie mécanique à la majestueuse
+            bibliothèque de vapeur, chaque étape de ce parcours vous plongera
+            dans l'histoire et la culture uniques de la ville. C'est une
+            expérience incontournable pour tous ceux qui souhaitent comprendre
+            et apprécier pleinement l'héritage de Steamwick.
           </p>
-          <Link to={''}>En savoir plus</Link>
         </div>
         <h2>Notre histoire</h2>
       </section>
-      <section className='popular'>
-        <h3 className='popular-title'>Les plus populaires</h3>
-        <ArrowSlider 
+      <section className="popular">
+        <h3 className="popular-title">Les plus populaires</h3>
+        <ArrowSlider
           length={arrowSliderList.length}
           list={arrowSliderList}
           size={5}
         />
       </section>
-      
     </main>
   )
 }

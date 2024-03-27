@@ -4,6 +4,8 @@ import Footer from "./components/footer/footer";
 import Home from "./pages/home/home";
 import Error from "./pages/error/error";
 import './style/global.scss'
+import PlaceToVisit from "./pages/placeToVisit/place";
+import About from "./pages/about/about";
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path="/places" element={<PlaceToVisit />} />
+        <Route path="/about" element={<About />} />
+
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

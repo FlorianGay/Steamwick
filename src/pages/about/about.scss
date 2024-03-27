@@ -1,0 +1,102 @@
+.about-history {
+  display: flex;
+  background-color: #ffefcf;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #361500;
+  padding: 50px 0;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    width: 50%;
+    font-size: 18px;
+  }
+}
+
+.about-heiress {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c0a00;
+  color: white;
+  gap: 50px;
+  padding: 50px 0;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    width: 50%;
+    font-size: 18px;
+  }
+}
+
+.about-facts {
+  display: flex;
+  background-color: #ffefcf;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #361500;
+  padding: 50px 0;
+
+  h2 {
+    font-size: 32px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    width: 50%;
+    gap: 15px;
+  }
+}
+
+.about-transport {
+   background-color: #442000;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 25px;
+   padding: 50px 0;
+
+   h2 {
+    font-size: 50px;
+    margin: 0;
+   }
+
+   .transport {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .transport-icon {
+        background-color: #ffefcf;
+        border-radius: 15px;
+        padding: 24px;
+        display: flex;
+        align-self: center;
+    }
+
+    svg {
+        fill: #361500;
+        width: 24px;
+        height: 24px;
+        align-self: center;
+    }
+   }
+
+   .transport p {
+    width: 70%;
+   }
+}

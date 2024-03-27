@@ -21,7 +21,7 @@
   background-color: #FFEFCF;
 }
 
-.history {
+.heiress-walk {
     background-image: url('https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/view_of_city.webp');
     background-size: cover;
     color: white;
@@ -45,4 +45,18 @@
         width: 110%;
     }
     
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  background-color: #442000;
+  padding: 50px 25px;
+
+  .popular-title {
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+  }
 }

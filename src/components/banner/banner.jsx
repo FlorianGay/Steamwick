@@ -7,7 +7,7 @@ function Banner(props) {
     <div className="banner">
       <div className="banner-contain">
         <h1 className="banner-title">{props.title}</h1>
-        <p className="banner-description">{props.description}</p>
+        {props.description ? <p className="banner-description">{props.description}</p> : ''}
       </div>
       {data.map((list, index) => (
         <Slider

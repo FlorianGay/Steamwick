@@ -6,13 +6,16 @@ function Header() {
   return (
     <header>
       <div className="header-top">
-        <img src={websiteLogo} alt="website logo" className="header-logo" />
+        <Link to={'/'}>
+          <img src={websiteLogo} alt="website logo" className="header-logo" />
+        </Link>
+        
         <span className="header-title">Steamwick</span>
       </div>
       <div className="header-bottom">
         <ul className='header-nav-list'>
-            <li className='nav-list-elmt'><Link to={'/'}>A propos</Link></li>
-            <li className='nav-list-elmt'><Link to={'/'}>A visiter</Link></li>
+            <li className='nav-list-elmt'><Link to={'/about'}>A propos</Link></li>
+            <li className='nav-list-elmt'><Link to={'/places'}>A visiter</Link></li>
             <li className='nav-list-elmt'><Link to={'/'}>Expériences</Link></li>
             <li className='nav-list-elmt'><Link to={'/'}>Notre histoire</Link></li>
             <li className='nav-list-elmt'><Link to={'/'}>Carte</Link></li>
