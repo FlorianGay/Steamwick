@@ -10,6 +10,9 @@ import CategoryPlace from "./pages/placeToVisit/categoryPlace";
 import PlaceDetails from "./pages/placeToVisit/placeDetails";
 import ExperienceHome from "./pages/experience/experienceHome";
 import ExperienceCategory from "./pages/experience/experienceCategory";
+import Map from "./pages/map/map";
+import Conservation from "./pages/conservation/conservation";
+import Contact from "./pages/contact/contact";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
         <Route path="/place-to-visit/:category/:id" element={<PlaceDetails />} />
         <Route path="/experience" element={<ExperienceHome />} />
         <Route path="/experience/:category" element={<ExperienceCategory />} />
+        <Route path="/map" element={<Map />} />
+        <Route path="/conservation" element={<Conservation />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

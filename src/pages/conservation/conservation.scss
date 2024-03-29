@@ -1,0 +1,58 @@
+.conservation {
+
+    h1 {
+        font-size: 60px;
+        background-color: #5C2C00;
+        color: white;
+        margin: 0;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    section {
+        
+        padding: 100px 50px;
+
+        h2 {
+            text-align: center;
+            margin: 0;
+            font-size: 40px;
+        }
+
+        figure {
+            display: flex;
+            gap: 50px;
+            margin-top: 50px;
+
+            img {
+                width: 100%;
+                max-width: 700px;
+                border-radius: 15px;
+            }
+
+            figcaption {
+                width: 70%;
+                margin: auto 0;
+
+                h3 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    background-color: #5C2C00;
+    color: white;
+}
+
+.normal {
+    background-color: #1C0A00;
+        color: #FFEFCF;
+}
