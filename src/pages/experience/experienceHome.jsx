@@ -31,9 +31,9 @@ function ExperienceHome() {
     },
     {
       image: natureExperience,
-      title: 'Nature',
+      title: 'Parc',
       description:
-        "Découvrez la nature steampunk qui entoure Steamwick. Parcs luxuriants où les plantes mécaniques côtoient les fleurs vivantes, jardins d'engrenages où les arbres métalliques s'élèvent vers le ciel. Explorez des sentiers balisés qui vous mèneront à travers des paysages étonnants, où la technologie et la nature se fondent harmonieusement. Profitez des panoramas spectaculaires depuis les observatoires mécaniques, où chaque point de vue est une invitation à l'émerveillement.",
+        "Plongez dans l'univers fascinant des parcs d'expositions steampunk où l'étrange et l'extraordinaire se rencontrent. Ces lieux emblématiques de Steamwick sont des vitrines de l'ingéniosité et de la créativité des artisans et inventeurs steampunk. À travers des expositions uniques, ces parcs offrent aux visiteurs une immersion totale dans un monde où le passé rétrofuturiste se mêle à des technologies étonnantes.",
       category: 'parc',
     },
     {
@@ -45,23 +45,21 @@ function ExperienceHome() {
     },
   ]
 
-
   console.log(experienceList)
   return (
     <main className="experience-home">
       <h1>Expériences</h1>
       <div className="experience-contain">
         {experienceList.map((list, index) => (
-            <Link key={index}>
+          <Link key={index} to={`/experience/${list.category}`}>
             <figure>
-            <img src={list.image} alt={list.title} />
-            <figcaption className={index%2 === 0 ? '' : 'reverse'}>
-              <h2>{list.title}</h2>
-              <p>{list.description}</p>
-            </figcaption>
-          </figure>
-            </Link>
-          
+              <img src={list.image} alt={list.title} />
+              <figcaption className={index % 2 === 0 ? '' : 'reverse'}>
+                <h2>{list.title}</h2>
+                <p>{list.description}</p>
+              </figcaption>
+            </figure>
+          </Link>
         ))}
       </div>
     </main>
