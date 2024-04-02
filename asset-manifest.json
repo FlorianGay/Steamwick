@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Steamwick/static/css/main.6c374713.css",
+    "main.js": "/Steamwick/static/js/main.ba1bad98.js",
+    "static/media/market_experience.webp": "/Steamwick/static/media/market_experience.3f4ccfd0276488051d50.webp",
+    "static/media/steamwick_map.webp": "/Steamwick/static/media/steamwick_map.373d1886d3f4e294f366.webp",
+    "static/media/nature_experience.webp": "/Steamwick/static/media/nature_experience.3232511181b0c0e64b8d.webp",
+    "static/media/art_experience.webp": "/Steamwick/static/media/art_experience.76bef55ff73e9599ecb3.webp",
+    "static/media/park.webp": "/Steamwick/static/media/park.b70d9bc38e8b820becca.webp",
+    "static/media/festivals_experience.webp": "/Steamwick/static/media/festivals_experience.3ea647442cd58cfeb88b.webp",
+    "static/media/conservation_manoir_horloge.webp": "/Steamwick/static/media/conservation_manoir_horloge.d8f4eebacbc4cecc23f7.webp",
+    "static/media/conservation_usine.webp": "/Steamwick/static/media/conservation_usine.402e9eae7ddb1d0347e6.webp",
+    "static/media/food_experience.webp": "/Steamwick/static/media/food_experience.37d92d50a61defa133f7.webp",
+    "static/media/contact_background.webp": "/Steamwick/static/media/contact_background.1f169f9692b92cb45389.webp",
+    "static/media/about_slider_1.webp": "/Steamwick/static/media/about_slider_1.16d62928ab2afbc5df8c.webp",
+    "static/media/historical.webp": "/Steamwick/static/media/historical.e2ca475bd3dabe36df21.webp",
+    "static/media/temple.webp": "/Steamwick/static/media/temple.3307af07f68e70f4c10c.webp",
+    "static/media/school.webp": "/Steamwick/static/media/school.9a5a01b16439e9bade38.webp",
+    "static/media/about_slider_2.webp": "/Steamwick/static/media/about_slider_2.b55830076a3ccd25ea48.webp",
+    "static/media/about_slider_3.webp": "/Steamwick/static/media/about_slider_3.c1bfe4431880b0a8a4af.webp",
+    "static/media/compass_icon.webp": "/Steamwick/static/media/compass_icon.e7abe5fa0758042c9a82.webp",
+    "static/media/steamwick_logo.webp": "/Steamwick/static/media/steamwick_logo.f370195290747b5d0dac.webp",
+    "index.html": "/Steamwick/index.html",
+    "main.6c374713.css.map": "/Steamwick/static/css/main.6c374713.css.map",
+    "main.ba1bad98.js.map": "/Steamwick/static/js/main.ba1bad98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c374713.css",
+    "static/js/main.ba1bad98.js"
+  ]
+}
