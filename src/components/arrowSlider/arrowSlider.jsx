@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { arrowLeft, arrowRight } from '../../assets/icon'
 import './arrowSlider.scss'
+import { Link } from 'react-router-dom'
 
 function ArrowSlider(props) {
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -16,7 +17,7 @@ function ArrowSlider(props) {
     for (let i = 0; i < size; i++) {
       const index = (currentIndex + i) % props.list.length;
       items.push(
-        <div className="slider-contain" key={props.list[index].id}>
+        <Link className="slider-contain" key={props.list[index].id} to={`/place-to-visit/${props.list[index].category}/${props.list[index].id}`}>
           <span className="slider-title">
             {props.list[index].title}
           </span>
@@ -25,7 +26,7 @@ function ArrowSlider(props) {
             alt={props.list[index].title}
             className="slider-img"
           />
-        </div>
+        </Link>
       );
     }
     return items;
