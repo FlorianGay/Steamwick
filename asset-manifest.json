@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Steamwick/static/css/main.6c374713.css",
-    "main.js": "/Steamwick/static/js/main.52fc3a05.js",
+    "main.js": "/Steamwick/static/js/main.e7eb02a0.js",
     "static/media/market_experience.webp": "/Steamwick/static/media/market_experience.3f4ccfd0276488051d50.webp",
     "static/media/steamwick_map.webp": "/Steamwick/static/media/steamwick_map.373d1886d3f4e294f366.webp",
     "static/media/nature_experience.webp": "/Steamwick/static/media/nature_experience.3232511181b0c0e64b8d.webp",
@@ -22,10 +22,10 @@
     "static/media/steamwick_logo.webp": "/Steamwick/static/media/steamwick_logo.f370195290747b5d0dac.webp",
     "index.html": "/Steamwick/index.html",
     "main.6c374713.css.map": "/Steamwick/static/css/main.6c374713.css.map",
-    "main.52fc3a05.js.map": "/Steamwick/static/js/main.52fc3a05.js.map"
+    "main.e7eb02a0.js.map": "/Steamwick/static/js/main.e7eb02a0.js.map"
   },
   "entrypoints": [
     "static/css/main.6c374713.css",
-    "static/js/main.52fc3a05.js"
+    "static/js/main.e7eb02a0.js"
   ]
 }
