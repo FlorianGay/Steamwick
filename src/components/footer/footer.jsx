@@ -13,28 +13,21 @@ function Footer() {
                 <li className="nav-list-elmt"><Link to={'/'}>CARTE</Link></li>
                 <li className="nav-list-elmt"><Link to={'/'}>CONSERVATION</Link></li>
                 <li className="nav-list-elmt"><Link to={'/'}>CONTACT</Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}>MENTION LEGALE</Link></li>
             </ul>
             <ul className="footer-nav-list">
-                <li className="nav-list-elmt"><Link to={'/'}>A VISITER</Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
+                <li className="nav-list-elmt"><Link to={'/place-to-visit'}>A VISITER</Link></li>
+                <li className="nav-list-elmt"><Link to={'/place-to-visit/Historique'}>Historique</Link></li>
+                <li className="nav-list-elmt"><Link to={'/place-to-visit/Culturel'}>Culturel</Link></li>
+                <li className="nav-list-elmt"><Link to={'/place-to-visit/Parc'}>Parc</Link></li>
+                <li className="nav-list-elmt"><Link to={'/place-to-visit/Educatif'}>Educatif</Link></li>
             </ul>
             <ul className="footer-nav-list">
-                <li className="nav-list-elmt"><Link to={'/'}>EXPERIENCES</Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-            </ul>
-            <ul className="footer-nav-list">
-                <li className="nav-list-elmt"><Link to={'/'}>NOTRE HISTOIRE</Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
-                <li className="nav-list-elmt"><Link to={'/'}></Link></li>
+                <li className="nav-list-elmt"><Link to={'/experience'}>EXPERIENCES</Link></li>
+                <li className="nav-list-elmt"><Link to={'/experience/art'}>Art & Fabrication</Link></li>
+                <li className="nav-list-elmt"><Link to={'/experience/festival'}>Evenements & Festivals</Link></li>
+                <li className="nav-list-elmt"><Link to={'/experience/food'}>Nourriture</Link></li>
+                <li className="nav-list-elmt"><Link to={'/experience/parc'}>Parc</Link></li>
+                <li className="nav-list-elmt"><Link to={'/experience/market'}>Marchés</Link></li>
             </ul>
         </div>
         <div className="footer-contact">

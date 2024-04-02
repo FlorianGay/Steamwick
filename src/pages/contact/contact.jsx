@@ -1,6 +1,22 @@
+import { useState } from 'react'
 import './contact.scss'
 
 function Contact() {
+  const [classname, setClassname] = useState('invisible')
+
+  function validation(e) {
+    e.preventDefault() // Empêcher le comportement par défaut du formulaire
+
+    const form = e.target.closest('form')
+    if (form.checkValidity()) {
+      setClassname('validation')
+      setTimeout(() => {
+        setClassname('invisible')
+      }, 3000)
+    } else {
+      form.reportValidity()
+    }
+  }
   return (
     <main className="contact">
       <h1>Contact</h1>
@@ -35,10 +51,13 @@ function Contact() {
               required
             ></textarea>
 
-            <button>Envoyée</button>
+            <button type="submit" onClick={validation}>
+              Envoyer
+            </button>
           </form>
         </article>
       </section>
+      <p className={classname}>Votre message a bien était envoyer !</p>
     </main>
   )
 }

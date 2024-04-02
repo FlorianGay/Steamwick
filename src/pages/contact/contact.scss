@@ -90,4 +90,23 @@ $bg-img: url('../../assets/contact_background.webp');
         border: solid 1px black;
     }
   }
+
+
+}
+
+.validation {
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #864000;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.invisible {
+  display: none;
 }

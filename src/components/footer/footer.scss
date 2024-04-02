@@ -3,7 +3,7 @@ footer {
     display: flex;
     flex-direction: column;
     background: #1C0A00;
-    padding: 20px 100px;
+    padding: 80px 200px;
 
     .footer-top {
         display: flex;
@@ -11,7 +11,7 @@ footer {
 
         .footer-nav {
             display: flex;
-            gap: 25px;
+            gap: 100px;
 
             .footer-nav-list {
                 list-style-type: none;
@@ -58,3 +58,4 @@ footer {
         }
     }
 }
+
