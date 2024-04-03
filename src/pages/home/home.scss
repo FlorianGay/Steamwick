@@ -1,50 +1,72 @@
+@import '../../style/mixins.scss';
+
 .home-description {
   display: flex;
   padding: 100px;
   align-items: center;
 
+  @include mobile-only {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
   h2 {
     font-size: 64px;
     margin: 0;
     width: 70%;
+
+    @include mobile-only {
+      font-size: 22px;
+    }
   }
 
   p {
     font-size: 24px;
     width: 100%;
     margin: 0;
+
+    @include mobile-only {
+      font-size: 18px;
+    }
   }
 }
 
 .heiress {
   color: #442000;
-  background-color: #FFEFCF;
+  background-color: #ffefcf;
 }
 
 .heiress-walk {
-    background-image: url('https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/view_of_city.webp');
-    background-size: cover;
-    color: white;
-    width: auto;
-    height: 500px;
+  background-image: url('https://storage.googleapis.com/florian_gay_image/Projet%20entrainement/view_of_city.webp');
+  background-size: cover;
+  color: white;
+  width: auto;
+  height: 500px;
+  flex-direction: row-reverse;
+  gap: 50px;
 
-    .description_2-contain {
-        display: flex;
-        flex-direction: column;
+  @include mobile-only {
+    flex-direction: column;
+  }
 
-        p {
-            font-size: 24px;
-            width: 80%;
-            margin: 0;
-        }
+  p {
+    font-size: 24px;
+    margin: 0;
+
+    @include mobile-only {
+      font-size: 18px;
     }
+  }
 
-    h2 {
-        font-size: 64px;
-        margin: 0;
-        width: 110%;
+  h2 {
+    font-size: 64px;
+    margin: 0;
+
+    @include mobile-only {
+      font-size: 22px;
     }
-    
+  }
 }
 
 .popular {
@@ -53,10 +75,18 @@
   background-color: #442000;
   padding: 50px 25px;
 
-  .popular-title {
+  @include mobile-only {
+    padding: 10px;
+  }
+
+  h3 {
     color: white;
     text-align: center;
     font-size: 56px;
     margin: 0;
+
+    @include mobile-only {
+      font-size: 28px;
+    }
   }
 }

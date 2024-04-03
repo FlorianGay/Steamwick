@@ -1,3 +1,5 @@
+@import '../../style/mixins.scss';
+
 
 .arrow-slider {
   display: flex;
@@ -19,6 +21,10 @@
     svg {
       width: 40px;
       fill: white;
+
+      @include mobile-only {
+        width: 20px;
+      }
     }
   }
 }
@@ -35,6 +41,10 @@
     background-color: rgba(4, 4, 4, 0.6);
     text-align: center;
     z-index: 99;
+
+    @include mobile-only {
+      font-size: 14px;
+    }
   }
 
   .slider-img {

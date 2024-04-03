@@ -3,6 +3,7 @@ import Banner from '../../components/banner/banner'
 import './home.scss'
 import ArrowSlider from '../../components/arrowSlider/arrowSlider'
 import arrowSliderList from '../../data/places.json'
+import { useEffect, useState } from 'react'
 
 function Home() {
   const homeList = [
@@ -16,6 +17,24 @@ function Home() {
       alt: 'City Photography ',
     },
   ]
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const [onMobile, setOnMobile] = useState(false)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+    if (screenWidth <= 768) {
+      setOnMobile(true)
+    } else {
+      setOnMobile(false)
+    }
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [screenWidth])
 
   return (
     <main>
@@ -49,27 +68,25 @@ function Home() {
         </p>
       </section>
       <section className="home-description heiress-walk">
-        <div className="description_2-contain">
-          <p>
-            Le parcours touristique de Steamwick offre une immersion captivante
-            dans l'héritage riche et fascinant de la ville. En suivant ce
-            parcours, vous découvrirez les monuments emblématiques, les lieux
-            historiques et les secrets bien gardés qui ont façonné l'identité de
-            Steamwick. De l'ancienne horlogerie mécanique à la majestueuse
-            bibliothèque de vapeur, chaque étape de ce parcours vous plongera
-            dans l'histoire et la culture uniques de la ville. C'est une
-            expérience incontournable pour tous ceux qui souhaitent comprendre
-            et apprécier pleinement l'héritage de Steamwick.
-          </p>
-        </div>
         <h2>Notre histoire</h2>
+        <p>
+          Le parcours touristique de Steamwick offre une immersion captivante
+          dans l'héritage riche et fascinant de la ville. En suivant ce
+          parcours, vous découvrirez les monuments emblématiques, les lieux
+          historiques et les secrets bien gardés qui ont façonné l'identité de
+          Steamwick. De l'ancienne horlogerie mécanique à la majestueuse
+          bibliothèque de vapeur, chaque étape de ce parcours vous plongera dans
+          l'histoire et la culture uniques de la ville. C'est une expérience
+          incontournable pour tous ceux qui souhaitent comprendre et apprécier
+          pleinement l'héritage de Steamwick.
+        </p>
       </section>
       <section className="popular">
-        <h3 className="popular-title">Les plus populaires</h3>
+        <h3>Les plus populaires</h3>
         <ArrowSlider
           length={arrowSliderList.length}
           list={arrowSliderList}
-          size={5}
+          size={onMobile ? 2 : 5}
         />
       </section>
     </main>

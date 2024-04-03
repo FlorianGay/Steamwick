@@ -1,61 +1,80 @@
+@import '../../style/mixins.scss';
 
 footer {
+  display: flex;
+  flex-direction: column;
+  background: #1c0a00;
+  padding: 80px 200px;
+
+  @include mobile-only {
+    padding: 10px;
+    gap: 50px;
+  }
+
+  .footer-top {
     display: flex;
-    flex-direction: column;
-    background: #1C0A00;
-    padding: 80px 200px;
+    justify-content: space-between;
 
-    .footer-top {
-        display: flex;
+    @include mobile-only {
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .footer-nav {
+      display: flex;
+      gap: 100px;
+
+      @include mobile-only {
+        gap: 30px;
         justify-content: space-between;
+        flex-wrap: wrap;
+      }
 
-        .footer-nav {
-            display: flex;
-            gap: 100px;
-
-            .footer-nav-list {
-                list-style-type: none;
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-                padding: 0;
-                margin: 0;
-
-                .nav-list-elmt {
-                    font-size: 18px;
-                }
-            }
-        }
-
-        .footer-contact {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-
-            .footer-contact-elmt {
-                display: flex;
-                align-items: center;
-                gap: 15px;
-                color: white;
-
-                svg {
-                width: 100%;
-                max-width: 25px;
-                fill: white;
-            }
-            }
-
-            
-        }
-    }
-
-    .footer-bottom {
+      .footer-nav-list {
+        list-style-type: none;
         display: flex;
-        align-self: end;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
 
-        span {
-            color: white;
+        .nav-list-elmt {
+          font-size: 18px;
+
+          @include mobile-only {
+            font-size: 14px;
+          }
         }
+      }
     }
-}
 
+    .footer-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      .footer-contact-elmt {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: white;
+
+        svg {
+          width: 100%;
+          max-width: 25px;
+          fill: white;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    display: flex;
+    align-self: end;
+
+    span {
+      color: white;
+    }
+  }
+}

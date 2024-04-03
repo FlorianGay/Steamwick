@@ -1,25 +1,35 @@
+@import '../../style/mixins.scss';
 
 .banner {
+  position: relative;
+  .banner-contain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
 
-    .banner-contain {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 100;
+    .banner-title {
+      font-size: 96px;
+      color: white;
+      text-align: center;
+      margin: 0;
 
-        .banner-title {
-            font-size: 96px;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-
-        .banner-description {
-            font-size: 42px;
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
+      @include mobile-only {
+        font-size: 24px;
+      }
     }
+
+    .banner-description {
+      font-size: 42px;
+      color: white;
+      text-align: center;
+      margin: 0;
+
+      @include mobile-only {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+    }
+  }
 }
