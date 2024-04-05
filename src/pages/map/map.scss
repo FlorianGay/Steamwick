@@ -1,8 +1,14 @@
+@import '../../style/mixins.scss';
+
 .map {
   img {
     width: 100%;
     max-width: 1920px;
     height: 1146px;
     object-fit: cover;
+
+    @include mobile-only {
+      height: auto;
+    }
   }
 }
