@@ -87,50 +87,52 @@ function About() {
         <h2>Quelque Anecdotes</h2>
         <ul>
           <li>
-            L'Étrange Phénomène des Horloges Synchronisées : <br /> Les
-            habitants de Steamwick ont longtemps remarqué un phénomène étrange :
-            toutes les horloges de la ville se synchronisent mystérieusement à
-            minuit chaque nuit. Certains disent que c'est l'œuvre d'un ancien
-            horloger fantôme qui hante encore les tours de l'horloge, tandis que
-            d'autres prétendent qu'il s'agit d'une manifestation de la magie de
-            la vapeur qui régit la ville.
+            <u>L'Étrange Phénomène des Horloges Synchronisées : </u>
+            <br /> Les habitants de Steamwick ont longtemps remarqué un
+            phénomène étrange : toutes les horloges de la ville se synchronisent
+            mystérieusement à minuit chaque nuit. Certains disent que c'est
+            l'œuvre d'un ancien horloger fantôme qui hante encore les tours de
+            l'horloge, tandis que d'autres prétendent qu'il s'agit d'une
+            manifestation de la magie de la vapeur qui régit la ville.
           </li>
           <li>
-            La Légende de la Locomotive Fantôme : <br /> On raconte qu'une
-            vieille locomotive à vapeur, nommée "Le Spectre de Steamwick",
-            parcourt encore les rails abandonnés la nuit. Les rares témoins
-            affirment avoir entendu son sifflement lugubre et vu ses feux
-            fantomatiques briller dans l'obscurité. Certains aventuriers
-            intrépides tentent de la retrouver pour percer son mystère, mais
-            personne n'a jamais réussi à la capturer.
+            <u>La Légende de la Locomotive Fantôme : </u>
+            <br /> On raconte qu'une vieille locomotive à vapeur, nommée "Le
+            Spectre de Steamwick", parcourt encore les rails abandonnés la nuit.
+            Les rares témoins affirment avoir entendu son sifflement lugubre et
+            vu ses feux fantomatiques briller dans l'obscurité. Certains
+            aventuriers intrépides tentent de la retrouver pour percer son
+            mystère, mais personne n'a jamais réussi à la capturer.
           </li>
           <li>
-            Le Concours de Machines à Vapeur : <br /> Chaque année, Steamwick
-            organise un concours de machines à vapeur où les inventeurs locaux
-            rivalisent de créativité pour construire les machines les plus
-            impressionnantes. Des locomotives surélevées aux machines à laver
-            automatiques, tout est permis. Le gagnant remporte le prestigieux
-            trophée de la "Clé d'Or", symbole de l'excellence en ingénierie à
-            vapeur.
+            <u>Le Concours de Machines à Vapeur : </u>
+            <br /> Chaque année, Steamwick organise un concours de machines à
+            vapeur où les inventeurs locaux rivalisent de créativité pour
+            construire les machines les plus impressionnantes. Des locomotives
+            surélevées aux machines à laver automatiques, tout est permis. Le
+            gagnant remporte le prestigieux trophée de la "Clé d'Or", symbole de
+            l'excellence en ingénierie à vapeur.
           </li>
           <li>
-            Les Jardins de la Vapeur : <br /> Nichés au cœur de la ville, les
-            Jardins de la Vapeur sont un havre de verdure où les habitants
-            peuvent se détendre parmi les sculptures de métal à vapeur et les
-            fontaines d'eau chauffée par la chaleur des machines. Ces jardins
-            sont réputés pour leurs plantes exotiques qui prospèrent grâce à un
-            système de serres alimenté par la vapeur souterraine de la ville.
+            <u>Les Jardins de la Vapeur : </u>
+            <br /> Nichés au cœur de la ville, les Jardins de la Vapeur sont un
+            havre de verdure où les habitants peuvent se détendre parmi les
+            sculptures de métal à vapeur et les fontaines d'eau chauffée par la
+            chaleur des machines. Ces jardins sont réputés pour leurs plantes
+            exotiques qui prospèrent grâce à un système de serres alimenté par
+            la vapeur souterraine de la ville.
           </li>
           <li>
-            Le Mystère de la Machine Disparue : <br /> Un jour, une machine à
-            vapeur extrêmement puissante, surnommée "La Foudre de Steamwick", a
-            mystérieusement disparu de l'atelier de son inventeur. Depuis lors,
-            les habitants de la ville ont souvent entendu son sifflement
-            lointain dans les montagnes environnantes, comme si elle tentait de
-            retrouver son chemin. Certains pensent qu'elle s'est transformée en
-            une créature mécanique errante, tandis que d'autres croient qu'elle
-            a trouvé refuge dans une caverne secrète, attendant d'être
-            découverte par un aventurier courageux.
+            <u>Le Mystère de la Machine Disparue : </u>
+            <br /> Un jour, une machine à vapeur extrêmement puissante,
+            surnommée "La Foudre de Steamwick", a mystérieusement disparu de
+            l'atelier de son inventeur. Depuis lors, les habitants de la ville
+            ont souvent entendu son sifflement lointain dans les montagnes
+            environnantes, comme si elle tentait de retrouver son chemin.
+            Certains pensent qu'elle s'est transformée en une créature mécanique
+            errante, tandis que d'autres croient qu'elle a trouvé refuge dans
+            une caverne secrète, attendant d'être découverte par un aventurier
+            courageux.
           </li>
         </ul>
       </section>
@@ -138,12 +140,10 @@ function About() {
       <section className="about-transport">
         <h2>Comment rejoindre notre ville :</h2>
         <div className="transport">
-            <div className="transport-icon">
-                {carIcon}
-            </div>
-          
+          <div className="transport-icon">{carIcon}</div>
           <p>
-            Par la route : <br />
+            <strong>Par la route : </strong>
+            <br />
             Pour les voyageurs venant en voiture, Steamwick est accessible par
             plusieurs routes pittoresques qui serpentent à travers les collines
             verdoyantes et les forêts mystérieuses de la région. Les panneaux
@@ -155,12 +155,10 @@ function About() {
           </p>
         </div>
         <div className="transport">
-            <div className="transport-icon">
-                {trainIcon}
-            </div>
-          
+          <div className="transport-icon">{trainIcon}</div>
           <p>
-            Par le train: <br />
+            <strong>Par le train: </strong>
+            <br />
             Pour rejoindre la ville de Steamwick en train, il existe une ligne
             ferroviaire spéciale qui relie la ville à d'autres destinations
             majeures de la région. La gare de Steamwick est un magnifique
@@ -172,12 +170,10 @@ function About() {
           </p>
         </div>
         <div className="transport">
-            <div className="transport-icon">
-                {planeIcon}
-            </div>
-          
+          <div className="transport-icon">{planeIcon}</div>
           <p>
-            Par avion : <br />
+            <strong>Par avion : </strong>
+            <br />
             Pour ceux qui préfèrent voyager en avion, l'aéroport le plus proche
             de Steamwick est l'aéroport international de Cielombre, situé à
             environ une heure de route de la ville. De là, les voyageurs peuvent

@@ -54,5 +54,5 @@ export {
   carIcon,
   planeIcon,
   trainIcon,
-  barIcon
+  barIcon,
 }

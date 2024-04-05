@@ -1,3 +1,5 @@
+@import '../../style/mixins.scss';
+
 .about-history {
   display: flex;
   background-color: #ffefcf;
@@ -7,13 +9,27 @@
   color: #361500;
   padding: 50px 0;
 
+  @include mobile-only {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
   h2 {
     font-size: 32px;
+
+    @include mobile-only {
+      font-size: 22px;
+    }
   }
 
   p {
     width: 50%;
     font-size: 18px;
+
+    @include mobile-only {
+      width: 100%;
+    }
   }
 }
 
@@ -27,13 +43,27 @@
   gap: 50px;
   padding: 50px 0;
 
+  @include mobile-only {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
   h2 {
     font-size: 32px;
+
+    @include mobile-only {
+      font-size: 22px;
+    }
   }
 
   p {
     width: 50%;
     font-size: 18px;
+
+    @include mobile-only {
+      width: 100%;
+    }
   }
 }
 
@@ -46,8 +76,18 @@
   color: #361500;
   padding: 50px 0;
 
+  @include mobile-only {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
   h2 {
     font-size: 32px;
+
+    @include mobile-only {
+      font-size: 22px;
+    }
   }
 
   ul {
@@ -58,45 +98,78 @@
     list-style-type: disc;
     width: 50%;
     gap: 15px;
+
+    @include mobile-only {
+      width: 100%;
+      list-style-type: none;
+    }
+
+    u {
+      font-size: 20px;
+    }
   }
 }
 
 .about-transport {
-   background-color: #442000;
-   color: white;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 25px;
-   padding: 50px 0;
+  background-color: #442000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 50px 0;
 
-   h2 {
+  @include mobile-only {
+    padding: 20px;
+  }
+
+  h2 {
     font-size: 50px;
     margin: 0;
-   }
 
-   .transport {
+    @include mobile-only {
+      font-size: 22px;
+    }
+  }
+
+  .transport {
     display: flex;
     justify-content: center;
     gap: 50px;
 
+    @include mobile-only {
+      gap: 25px;
+    }
+
     .transport-icon {
-        background-color: #ffefcf;
-        border-radius: 15px;
-        padding: 24px;
-        display: flex;
-        align-self: center;
+      background-color: #ffefcf;
+      border-radius: 15px;
+      padding: 24px;
+      display: flex;
+      align-self: center;
+
+      @include mobile-only {
+        padding: 12px;
+      }
     }
 
     svg {
-        fill: #361500;
-        width: 24px;
-        height: 24px;
-        align-self: center;
+      fill: #361500;
+      width: 24px;
+      height: 24px;
+      align-self: center;
     }
-   }
+  }
 
-   .transport p {
+  .transport p {
     width: 70%;
-   }
+
+    @include mobile-only {
+      width: 100%;
+    }
+
+    strong {
+      font-size: 20px;
+    }
+  }
 }
