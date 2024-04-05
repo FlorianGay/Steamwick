@@ -1,6 +1,7 @@
+@import '../../style/mixins.scss';
+
 .experience-banner {
   position: relative;
-  height: 830px;
   overflow: hidden;
 
   img {
@@ -26,6 +27,10 @@
     svg {
       fill: white;
       width: 25px;
+
+      @include mobile-only {
+        width: 12.5px;
+      }
     }
   }
 
@@ -37,6 +42,12 @@
     z-index: 99;
     font-size: 60px;
     color: white;
+
+    @include mobile-only {
+      font-size: 30px;
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 
@@ -46,10 +57,13 @@
   justify-content: center;
   gap: 50px;
 
+  @include mobile-only {
+    padding: 20px;
+  }
+
   img {
     width: 100%;
     max-width: 750px;
-    height: 500px;
     overflow: hidden;
     object-fit: cover;
     border-radius: 15px;
@@ -62,37 +76,66 @@
     justify-content: center;
     gap: 15px;
 
+    @include mobile-only {
+      width: auto;
+    }
+
     h2 {
       font-size: 30px;
       margin: 0;
+
+      @include mobile-only {
+        font-size: 22px;
+        text-align: center;
+      }
     }
 
     p {
       font-size: 20px;
       margin: 0;
+
+      @include mobile-only {
+        font-size: 16px;
+      }
     }
 
     ul {
       font-size: 20px;
       list-style-type: none;
 
+      @include mobile-only {
+        font-size: 18px;
+      }
+
       li {
         margin: 7.5px 0;
         font-size: 18px;
         padding-left: 10px;
+
+        @include mobile-only {
+          font-size: 16px;
+          padding: 0;
+        }
       }
     }
   }
 }
 
 .row {
-    flex-direction: row;
-    background-color: #E4C597;
-    color: #361500;
+  flex-direction: row;
+  background-color: #e4c597;
+  color: #361500;
 }
 
 .row-reverse {
-    flex-direction: row-reverse;
-    background-color: #5C2C00;
-    color: #FFEFCF;
+  flex-direction: row-reverse;
+  background-color: #5c2c00;
+  color: #ffefcf;
+}
+
+.row,
+.row-reverse {
+  @include mobile-only {
+    flex-direction: column;
+  }
 }

@@ -12,20 +12,25 @@ function ExperienceCategory() {
     <main>
       <section className="experience-banner">
         <img src={experienceFiltered.image} alt={experienceFiltered.title} />
-        <Link to={'/experience'} className='experience-nav'>
+        <Link to={'/experience'} className="experience-nav">
           <button>{arrowLeft}</button>
         </Link>
         <h1>{experienceFiltered.title}</h1>
       </section>
-      <section className="experience-card-list">
+      <section>
         {experienceFiltered.experiences.map((list, index) => (
-          <div className={`experience-card ${index % 2 === 0 ? 'row' : 'row-reverse'}`} key={index}>
+          <div
+            className={`experience-card ${
+              index % 2 === 0 ? 'row' : 'row-reverse'
+            }`}
+            key={index}
+          >
             <img src={list.image} alt={list.titre} />
             <div className="card-contain">
               <h2>{list.titre}</h2>
               <p>{list.description}</p>
               <ul>
-                Quelques adresses intéressantes : 
+                Quelques adresses intéressantes :
                 {list.adresse.map((list, index) => (
                   <li key={index}> {list} </li>
                 ))}
