@@ -1,58 +1,95 @@
+@import '../../style/mixins.scss';
+
 .conservation {
-
-    h1 {
-        font-size: 60px;
-        background-color: #5C2C00;
-        color: white;
-        margin: 0;
-        text-align: center;
-        padding: 15px 0;
-    }
-
-    section {
-        
-        padding: 100px 50px;
-
-        h2 {
-            text-align: center;
-            margin: 0;
-            font-size: 40px;
-        }
-
-        figure {
-            display: flex;
-            gap: 50px;
-            margin-top: 50px;
-
-            img {
-                width: 100%;
-                max-width: 700px;
-                border-radius: 15px;
-            }
-
-            figcaption {
-                width: 70%;
-                margin: auto 0;
-
-                h3 {
-                    font-size: 30px;
-                }
-
-                p {
-                    font-size: 18px;
-                }
-            }
-        }
-    }
-}
-
-.reverse {
-    flex-direction: row-reverse;
-    background-color: #5C2C00;
+  h1 {
+    font-size: 60px;
+    background-color: #5c2c00;
     color: white;
+    margin: 0;
+    text-align: center;
+    padding: 15px 0;
+
+    @include mobile-only {
+      font-size: 30px;
+    }
+  }
+
+  section {
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+
+    @include mobile-only {
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 0;
+      font-size: 40px;
+
+      @include mobile-only {
+        font-size: 22px;
+      }
+    }
+
+    figure {
+      display: flex;
+      gap: 50px;
+      margin-top: 50px;
+
+      @include mobile-only {
+        flex-direction: column;
+      }
+
+      img {
+        width: 100%;
+        max-width: 700px;
+        border-radius: 15px;
+      }
+
+      figcaption {
+        width: 70%;
+        margin: auto 0;
+
+        @include mobile-only {
+            width: auto;
+        }
+
+        h3 {
+          font-size: 30px;
+
+          @include mobile-only {
+            font-size: 22px;
+          }
+        }
+
+        p {
+          font-size: 18px;
+
+          @include mobile-only {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
 
-.normal {
-    background-color: #1C0A00;
-        color: #FFEFCF;
+section:first-of-type {
+  background-color: #1c0a00;
+  color: #ffefcf;
+}
+
+section:last-of-type {
+  background-color: #5c2c00;
+  color: white;
+
+  figure {
+    flex-direction: row-reverse;
+
+    @include mobile-only {
+        flex-direction: column;
+    }
+  }
 }
