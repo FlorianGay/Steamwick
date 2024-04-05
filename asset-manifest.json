@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Steamwick/static/css/main.6c374713.css",
-    "main.js": "/Steamwick/static/js/main.65566105.js",
+    "main.css": "/Steamwick/static/css/main.6c2af308.css",
+    "main.js": "/Steamwick/static/js/main.db1b6feb.js",
     "static/media/market_experience.webp": "/Steamwick/static/media/market_experience.3f4ccfd0276488051d50.webp",
     "static/media/steamwick_map.webp": "/Steamwick/static/media/steamwick_map.373d1886d3f4e294f366.webp",
     "static/media/nature_experience.webp": "/Steamwick/static/media/nature_experience.3232511181b0c0e64b8d.webp",
@@ -16,16 +16,17 @@
     "static/media/historical.webp": "/Steamwick/static/media/historical.e2ca475bd3dabe36df21.webp",
     "static/media/temple.webp": "/Steamwick/static/media/temple.3307af07f68e70f4c10c.webp",
     "static/media/school.webp": "/Steamwick/static/media/school.9a5a01b16439e9bade38.webp",
+    "static/media/error.webp": "/Steamwick/static/media/error.2aa9ff1f17a5fd9da298.webp",
     "static/media/about_slider_2.webp": "/Steamwick/static/media/about_slider_2.b55830076a3ccd25ea48.webp",
     "static/media/about_slider_3.webp": "/Steamwick/static/media/about_slider_3.c1bfe4431880b0a8a4af.webp",
     "static/media/compass_icon.webp": "/Steamwick/static/media/compass_icon.e7abe5fa0758042c9a82.webp",
     "static/media/steamwick_logo.webp": "/Steamwick/static/media/steamwick_logo.f370195290747b5d0dac.webp",
     "index.html": "/Steamwick/index.html",
-    "main.6c374713.css.map": "/Steamwick/static/css/main.6c374713.css.map",
-    "main.65566105.js.map": "/Steamwick/static/js/main.65566105.js.map"
+    "main.6c2af308.css.map": "/Steamwick/static/css/main.6c2af308.css.map",
+    "main.db1b6feb.js.map": "/Steamwick/static/js/main.db1b6feb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c374713.css",
-    "static/js/main.65566105.js"
+    "static/css/main.6c2af308.css",
+    "static/js/main.db1b6feb.js"
   ]
 }
