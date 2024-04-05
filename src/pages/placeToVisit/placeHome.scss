@@ -1,11 +1,19 @@
+@import '../../style/mixins.scss';
+
+
 .place-title {
   background-color: #5c2c00;
   text-align: center;
   padding: 15px 0;
+
   h1 {
     color: white;
     font-size: 60px;
     margin: 0;
+
+    @include mobile-only {
+      font-size: 30px;
+    }
   }
 }
 
@@ -20,12 +28,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
+
+    @include mobile-only {
+      display: none;
+    }
   }
 
   article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0;
+
+    @include mobile-only {
+      display: flex;
+      flex-direction: column;
+    }
 
     .banner-elmt {
       position: relative;
@@ -49,6 +66,10 @@
         max-height: 462px;
         object-fit: cover;
         transition: all 0.5s ease-in-out;
+
+        @include mobile-only {
+          max-height: 130px;
+        }
       }
 
       p {
@@ -62,13 +83,22 @@
         transition: all 0.5s ease-in-out;
         width: 100%;
         text-align: center;
+
+        @include mobile-only {
+          margin: 0;
+          font-size: 25px;
+        }
       }
     }
   }
 }
 
 .popular h2 {
-    text-align: center;
-    color: white;
-    font-size: 50px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+
+  @include mobile-only {
+    font-size: 25px;
+  }
 }

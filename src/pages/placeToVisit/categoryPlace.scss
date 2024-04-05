@@ -1,3 +1,5 @@
+@import '../../style/mixins.scss';
+
 .category-up {
   display: flex;
   align-items: center;
@@ -11,6 +13,10 @@
     font-size: 60px;
     margin: auto;
     align-self: flex-start;
+
+    @include mobile-only {
+      font-size: 30px;
+    }
   }
 
   button {
@@ -21,6 +27,10 @@
     align-self: flex-start;
     margin-right: auto;
 
+    @include mobile-only {
+      padding: 7.5px;
+    }
+
     &:hover {
       cursor: pointer;
     }
@@ -28,6 +38,10 @@
     svg {
       fill: white;
       width: 25px;
+
+      @include mobile-only {
+        width: 12.5px;
+      }
     }
   }
 }
@@ -38,6 +52,11 @@
   flex-wrap: nowrap;
   padding: 50px 25px;
   justify-content: center;
+
+  @include mobile-only {
+    flex-direction: column;
+    padding: 0;
+  }
 
   figure {
     flex: 1;
@@ -62,6 +81,10 @@
       h3 {
         text-align: center;
         font-size: 24px;
+
+        @include mobile-only {
+          font-size: 22px;
+        }
       }
 
       p {

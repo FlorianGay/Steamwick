@@ -1,15 +1,14 @@
 @import '../../style/mixins.scss';
 
-
 .arrow-slider {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
   margin: 50px auto;
-  
+
   .arrow {
-    background-color: #1C0A00;
+    background-color: #1c0a00;
     border: none;
     border-radius: 50%;
     padding: 10px;
@@ -31,6 +30,10 @@
 
 .slider-contain {
   position: relative;
+
+  @include mobile-only {
+    height: max-content;
+  }
 
   .slider-title {
     position: absolute;

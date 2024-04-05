@@ -7,7 +7,7 @@ import schoolImg from '../../assets/school.webp'
 import arrowSliderList from '../../data/places.json'
 import ArrowSlider from '../../components/arrowSlider/arrowSlider'
 import { Link } from 'react-router-dom'
-
+import { useEffect, useState } from 'react'
 
 function PlaceHome() {
   const bannerList = [
@@ -37,6 +37,24 @@ function PlaceHome() {
     },
   ]
 
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const [onMobile, setOnMobile] = useState(false)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+    if (screenWidth <= 768) {
+      setOnMobile(true)
+    } else {
+      setOnMobile(false)
+    }
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [screenWidth])
+
   return (
     <main>
       <article className="place-title">
@@ -51,20 +69,20 @@ function PlaceHome() {
         <article>
           {bannerList.map((list) => (
             <Link to={`/place-to-visit/${list.category}`} key={list.category}>
-              <div className="banner-elmt" >
-              <img src={list.image} alt={list.alt} />
-              <p>{list.title}</p>
-            </div>
+              <div className="banner-elmt">
+                <img src={list.image} alt={list.alt} />
+                <p>{list.title}</p>
+              </div>
             </Link>
           ))}
         </article>
       </section>
-      <section className='popular'>
+      <section className="popular">
         <h2>Les plus populaires</h2>
         <ArrowSlider
-        length={arrowSliderList.length}
-        list={arrowSliderList}
-        size={3}
+          length={arrowSliderList.length}
+          list={arrowSliderList}
+          size={onMobile ? 2 : 3}
         />
       </section>
     </main>
