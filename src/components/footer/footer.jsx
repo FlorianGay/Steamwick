@@ -12,16 +12,16 @@ function Footer() {
               <Link to={'/'}>HOME</Link>
             </li>
             <li className="nav-list-elmt">
-              <Link to={'/'}>A PROPOS</Link>
+              <Link to={'/about'}>A PROPOS</Link>
             </li>
             <li className="nav-list-elmt">
-              <Link to={'/'}>CARTE</Link>
+              <Link to={'/map'}>CARTE</Link>
             </li>
             <li className="nav-list-elmt">
-              <Link to={'/'}>CONSERVATION</Link>
+              <Link to={'/conservation'}>CONSERVATION</Link>
             </li>
             <li className="nav-list-elmt">
-              <Link to={'/'}>CONTACT</Link>
+              <Link to={'/contact'}>CONTACT</Link>
             </li>
           </ul>
           <ul className="footer-nav-list">

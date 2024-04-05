@@ -32,6 +32,10 @@ function Header() {
     }
   }
 
+  const closeMenu = () => {
+    setIsOpen(false)
+  }
+
   return (
     <header>
       <div className="header-top">
@@ -59,22 +63,22 @@ function Header() {
           }
         >
           <li>
-            <Link to={'/about'}>A propos</Link>
+            <Link to={'/about'} onClick={closeMenu}>A propos</Link>
           </li>
           <li>
-            <Link to={'/place-to-visit'}>A visiter</Link>
+            <Link to={'/place-to-visit'} onClick={closeMenu}>A visiter</Link>
           </li>
           <li>
-            <Link to={'/experience'}>Expériences</Link>
+            <Link to={'/experience'} onClick={closeMenu}>Expériences</Link>
           </li>
           <li>
-            <Link to={'/map'}>Carte</Link>
+            <Link to={'/map'} onClick={closeMenu}>Carte</Link>
           </li>
           <li>
-            <Link to={'/conservation'}>Conservation</Link>
+            <Link to={'/conservation'} onClick={closeMenu}>Conservation</Link>
           </li>
           <li>
-            <Link to={'/contact'}>Contact</Link>
+            <Link to={'/contact'} onClick={closeMenu}>Contact</Link>
           </li>
         </ul>
       </nav>
