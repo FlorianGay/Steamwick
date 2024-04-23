@@ -62,24 +62,29 @@ function Header() {
             isOpen && onMobile ? 'nav-appear' : onMobile ? 'nav-disappear' : ''
           }
         >
-          <li>
-            <Link to={'/about'} onClick={closeMenu}>A propos</Link>
-          </li>
-          <li>
-            <Link to={'/place-to-visit'} onClick={closeMenu}>A visiter</Link>
-          </li>
-          <li>
-            <Link to={'/experience'} onClick={closeMenu}>Expériences</Link>
-          </li>
-          <li>
-            <Link to={'/map'} onClick={closeMenu}>Carte</Link>
-          </li>
-          <li>
-            <Link to={'/conservation'} onClick={closeMenu}>Conservation</Link>
-          </li>
-          <li>
-            <Link to={'/contact'} onClick={closeMenu}>Contact</Link>
-          </li>
+          <Link to={'/about'} onClick={closeMenu}>
+            <li>A propos</li>
+          </Link>
+
+          <Link to={'/place-to-visit'} onClick={closeMenu}>
+            <li>A visiter</li>
+          </Link>
+
+          <Link to={'/experience'} onClick={closeMenu}>
+            <li>Expériences</li>
+          </Link>
+
+          <Link to={'/map'} onClick={closeMenu}>
+            <li>Carte</li>
+          </Link>
+
+          <Link to={'/conservation'} onClick={closeMenu}>
+            <li>Conservation</li>
+          </Link>
+
+          <Link to={'/contact'} onClick={closeMenu}>
+            <li>Contact</li>
+          </Link>
         </ul>
       </nav>
     </header>
