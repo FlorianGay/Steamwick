@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Steamwick/static/css/main.6c2af308.css",
-    "main.js": "/Steamwick/static/js/main.db1b6feb.js",
+    "main.css": "/Steamwick/static/css/main.cb5465f3.css",
+    "main.js": "/Steamwick/static/js/main.468fa3a5.js",
     "static/media/market_experience.webp": "/Steamwick/static/media/market_experience.3f4ccfd0276488051d50.webp",
     "static/media/steamwick_map.webp": "/Steamwick/static/media/steamwick_map.373d1886d3f4e294f366.webp",
     "static/media/nature_experience.webp": "/Steamwick/static/media/nature_experience.3232511181b0c0e64b8d.webp",
@@ -20,13 +20,13 @@
     "static/media/about_slider_2.webp": "/Steamwick/static/media/about_slider_2.b55830076a3ccd25ea48.webp",
     "static/media/about_slider_3.webp": "/Steamwick/static/media/about_slider_3.c1bfe4431880b0a8a4af.webp",
     "static/media/compass_icon.webp": "/Steamwick/static/media/compass_icon.e7abe5fa0758042c9a82.webp",
-    "static/media/steamwick_logo.webp": "/Steamwick/static/media/steamwick_logo.f370195290747b5d0dac.webp",
+    "static/media/steamwick_logo.webp": "/Steamwick/static/media/steamwick_logo.c6207a0edb1c96597ba9.webp",
     "index.html": "/Steamwick/index.html",
-    "main.6c2af308.css.map": "/Steamwick/static/css/main.6c2af308.css.map",
-    "main.db1b6feb.js.map": "/Steamwick/static/js/main.db1b6feb.js.map"
+    "main.cb5465f3.css.map": "/Steamwick/static/css/main.cb5465f3.css.map",
+    "main.468fa3a5.js.map": "/Steamwick/static/js/main.468fa3a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c2af308.css",
-    "static/js/main.db1b6feb.js"
+    "static/css/main.cb5465f3.css",
+    "static/js/main.468fa3a5.js"
   ]
 }
